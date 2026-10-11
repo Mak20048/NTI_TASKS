@@ -1,7 +1,0 @@
-
-name=input("Enter your name:  ")
-print("Hello, welcome to our store!")
-prices = list(map(float,input("Enter three prices to the three products  :  ").split()))
-sum_prices = sum(prices)
-print (f'hey {name}, the total price of the three products is {sum_prices}  ')
-print (f'Hey {name}, the price after the discount is 90 percent of the total price, which is {sum_prices*0.9}  ')
